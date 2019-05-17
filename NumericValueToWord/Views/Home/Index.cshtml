@@ -1,0 +1,36 @@
+﻿
+<br />
+
+<noscript>
+    <h2>
+        JavaScript is disabled!
+        Please enable JavaScript in your web browser!
+    </h2>
+
+    <style type="text/css">
+        #numericvaluetoword {
+            display: none;
+        }
+    </style>
+</noscript>
+
+
+<form novalidate="novalidate" onsubmit='return onSubmit(this)' id="numericvaluetoword">
+    <div class="form-group col-xs-12">
+        <label for="name">Name:</label>
+        <input class="form-control input-sm" style="width:400px" placeholder="Enter Your Name" required type="text" name="name" id="txtName" />
+        <br />
+    </div>
+    <div class="form-group col-xs-12">
+        <label for="amount">Amount:</label><br />
+        <input class="form-control input-sm onerow" style="width:300px" min="0" max="2147483647" step="1" maxlength="10" placeholder="Enter Dollar Amount" name="dollaramount" required type="number" id="txtDollarNumber" /><b>.</b><input class="form-control input-sm onerow" style="width:100px" min="0" step="1" maxlength="2" max="99" placeholder="Enter Cent(s)" name="centamount" type="number" id="txtCentNumber" />
+        <br /><i>Note: Given amount will be converted in word and please do not enter more than 2147483647</i>
+        <br /><div id="dollarError"></div>
+    </div>
+    <div class="form-group">
+        <br />
+        <input type="submit" class="btn-success" value="Send Data" id="btnSubmitValue" /><br />
+    </div>
+</form>
+<br />
+<div id="response"></div>
