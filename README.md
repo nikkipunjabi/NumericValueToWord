@@ -12,7 +12,9 @@ I've used Bootstrap to create a simple UI. HTML5 and jQuery Form Validation for 
 #### Quick start:
 
   - In order to run this application, please clone this repository
-  - Run the .sln file in Visual Studio and Debug - Start Debugging (or F5) from Visual Studio
+  - Run the .sln file in Visual Studio
+  - Clean and Rebuild the solution.
+  - Debug - Start Debugging (or F5) from Visual Studio
 
 ![Start-Debugging](http://www.nikkipunjabi.com/Sitecore/numericvaluetoword/start-debugging.png)
 
