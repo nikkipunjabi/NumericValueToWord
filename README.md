@@ -18,6 +18,8 @@ I've used Bootstrap to create a simple UI. HTML5 and jQuery Form Validation for 
 
 ![Start-Debugging](http://www.nikkipunjabi.com/Sitecore/numericvaluetoword/start-debugging.png)
 
+_If you get an error for roslyn compiler in the browser, kindly clean and rebuild the solution and again start debugging._
+
 #### How it works:
 -   We have a form on the browser.
 -   User will provide the required details.
